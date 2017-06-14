@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.myapplication.MainActivity">
+    //숫자를 계산하는 프로그램
+
+    <EditText
+        android:id="@+id/Edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number1"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <EditText
+        android:id="@+id/Edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number2"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="9dp" />
+
+    <Button
+        android:id="@+id/BtnAdd"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteY="90dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <Button
+        android:id="@+id/BtnSub"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="-"
+        tools:layout_editor_absoluteY="140dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+    <TextView
+        android:id="@+id/TextResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#0099ff"
+        android:text="result:"
+        tools:layout_editor_absoluteY="200dp"
+        tools:layout_editor_absoluteX="9dp" />
+</android.support.constraint.ConstraintLayout>

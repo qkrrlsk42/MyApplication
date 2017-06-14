@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.owner.myapplication.MainActivity">
+    // 좋아하는 동물의 사진을 선택하는 프로그램
+
+    <TextView
+        android:text="What are your favorite pets?"
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteY="10dp"
+        tools:layout_editor_absoluteX="10dp"/>
+
+    <RadioGroup
+        android:id="@+id/Rgroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        tools:layout_editor_absoluteY="40dp"
+        tools:layout_editor_absoluteX="10dp">
+        <RadioButton
+            android:id="@+id/RdoDog"
+            android:text="Puppy" />
+        <RadioButton
+            android:id="@+id/RdoCat"
+            android:text="Cat" />
+        <RadioButton
+            android:id="@+id/RdoRabbit"
+            android:text="Rabbit" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BtnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selection complete "
+        android:textColor="#0099ff"
+        tools:layout_editor_absoluteY="140dp"
+        tools:layout_editor_absoluteX="10dp" />
+
+    <ImageView
+        android:id="@+id/imagPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dog"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="200dp" />
+
+</android.support.constraint.ConstraintLayout>
